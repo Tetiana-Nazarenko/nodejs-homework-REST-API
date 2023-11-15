@@ -22,4 +22,4 @@ const contactsSchema = new Schema(
 
 const Contact = model('product', contactsSchema);
 
-module.export = Contact;
+module.exports = Contact;
