@@ -2,6 +2,7 @@ const mongoose = require('mongoose');
 
 const app = require('./app');
 
+// const { DB_URI } = process.env;
 const DB_HOST =
     'mongodb+srv://nnn27725:bOlXabXbzr849Voo@cluster0.p6nkayh.mongodb.net/';
 
