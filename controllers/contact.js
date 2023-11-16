@@ -1,5 +1,5 @@
 const Contact = require('../schema/contacts');
-const { validSchema, patchSchema } = require('../schema/contacts');
+const { validSchema, patchSchema } = require('../schema/joi');
 
 async function listContacts(req, res, next) {
     try {
